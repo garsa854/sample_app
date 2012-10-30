@@ -12,7 +12,7 @@ end
 group :development do
 	gem 'sqlite3-ruby', :require => 'sqlite3'
 	gem 'rspec-rails', '>= 2.0.0'
-
+	gem 'annotate'
 	# use capybara to get rspec response.should have_selector to work
 	gem 'capybara'
 end
