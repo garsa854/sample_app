@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -16,6 +17,7 @@ group :development do
 	gem 'annotate'
 	# use capybara to get rspec response.should have_selector to work
 	gem 'capybara'
+	gem 'faker', '0.3.1'
 end
 
 group :test do
