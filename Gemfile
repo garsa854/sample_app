@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
+gem 'jquery-rails'
+gem 'prototype-rails', :git => 'git://github.com/rails/prototype-rails.git'
 gem 'gravatar_image_tag'
 gem 'will_paginate'
 
@@ -39,4 +41,4 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+

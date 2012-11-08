@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/rails/prototype-rails.git
+  revision: 967bc9b5cafe5a1e92d646b7d7b2d900a596147b
+  specs:
+    prototype-rails (3.2.1)
+      rails (~> 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -158,8 +165,9 @@ DEPENDENCIES
   factory_girl_rails
   faker (= 0.3.1)
   gravatar_image_tag
-  jquery-rails
+  jquery-rails (~> 2.1)
   pg
+  prototype-rails!
   rails (= 3.2.1)
   rspec (>= 2.0.0)
   rspec-rails (>= 2.0.0)
