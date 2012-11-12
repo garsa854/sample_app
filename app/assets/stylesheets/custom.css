@@ -205,4 +205,16 @@ form.new_micropost {
 form.new_micropost textarea {
 	height: 4em;
 	margin-bottom: 0;
+	white-space: normal;
+}
+
+.letter_count {
+	text-align: right;
+	font-size: 80%;
+	color: #665;
+	padding: 3px 18px 3px 18px;
+}
+
+.micropost_actions input, .micropost_actions span.letter_count {
+	float: right;
 }
